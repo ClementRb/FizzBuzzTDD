@@ -10,4 +10,8 @@ describe("Fizz buzz tests", function() {
   it("should return Fizz if divisible by 5", function() {
     expect(FizzBuzz(10)).to.equal("Buzz");
   });
+
+  it("should return FizzBuzz if divisible by 15", function() {
+    expect(FizzBuzz(30)).to.equal("FizzBuzz");
+  });
 });
