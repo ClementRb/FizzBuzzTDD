@@ -6,4 +6,8 @@ describe("Fizz buzz tests", function() {
   it("should return Fizz if dividable by 3", function() {
     expect(FizzBuzz(9)).to.equal("Fizz");
   });
+
+  it("should return Fizz if dividable by 5", function() {
+    expect(FizzBuzz(10)).to.equal("Buzz");
+  });
 });
