@@ -2,7 +2,7 @@
   "name": "fizzbuzztdd",
   "version": "1.0.0",
   "description": "FizzBuzz TDD",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "mocha -r ts-node/register *.test.ts",
     "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test"
